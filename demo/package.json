@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@pipeline-ui/icons": "file:..",
+    "@pipeline-ui/icons": "^0.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
-    "pipeline-ui": "^0.11.1",
     "styled-components": ">= 4",
     "styled-system": "^5.1.2"
   },
