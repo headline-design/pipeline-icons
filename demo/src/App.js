@@ -25,9 +25,14 @@ const Truncate = styled(Box)([], {
   textOverflow: "ellipsis"
 });
 
+function lowCase(text) {
+  var lowcased =  text.charAt(0).toLowerCase() + text.slice(1);
+  return lowcased;
+}
+
 const IconList = ({ filterValue, icons }) => {
   return Object.keys(icons)
-    .filter(key => key !== "Icon" && key.includes(filterValue))
+    .filter(key => key !== "Icon" && lowCase(key).includes(filterValue))
     .map((key, index) => (
       <Box key={key + index}>
         <CopyToClipboard text={key}>
