@@ -24,6 +24,6 @@ var SvgAlgo = React.forwardRef(function (props, ref) {
 SvgAlgo.displayName = "SvgAlgo";
 SvgAlgo.defaultProps = {
   size: 24,
-  color: "#F49E00"
+  color: "#1d1d1d"
 };
 export default SvgAlgo;
